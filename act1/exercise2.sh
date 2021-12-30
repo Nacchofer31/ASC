@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if test $# -lt 1 then
+if test $# -lt 1; then
     echo "syntax error - invalid syntax $0/ file"
 elif test -f $1 && [[ $1 =~ \.jpg$ ]]; then
     # mkdir mandatory on macOS systems
