@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if test $# -lt 1 ; then
     echo "syntax error - invalid syntax $0/ folder | file"

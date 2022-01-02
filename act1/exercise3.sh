@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 args=("$@") 
 ELEMENTS=${#args[@]} 
@@ -9,4 +9,4 @@ for (( i=2;i< ELEMENTS ;i++)); do
     res="${res}\n${args[${i}]}"
 done
 
-echo $res
+echo -e $res
